@@ -1,0 +1,10 @@
+# Archivos locales y credenciales.
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.env
+.env.*
+!.env.example
+*.log
+node_modules/
