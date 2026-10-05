@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Carta de La tradicion, con sandwiches y postres.">
-  <title>Carta Halloween | La tradicion</title>
+  <title>Carta Navidad | La tradicion</title>
   <style>
     :root {
       color-scheme: light;
       font-family: Arial, sans-serif;
-      color: #403628;
-      background-color: #f3eee5;
+      color: #243b30;
+      background-color: #164b38;
     }
 
     * {
@@ -28,12 +28,12 @@
       margin: 0 auto;
       text-align: center;
       background-color: #fff;
-      color: #30271f;
+      color: #164b38;
     }
 
     header {
       padding: 2rem 1rem 0.5rem;
-      border-top: 0.85rem solid #c29d8b;
+      border-top: 0.85rem solid #b32632;
     }
 
     header h1 {
@@ -61,15 +61,12 @@
       margin: 0 auto;
       padding: 0.5rem 1rem 1.5rem;
       overflow: hidden;
-      background:
-        radial-gradient(ellipse at 25% 35%, rgb(222 204 171 / 18%) 0 16%, transparent 17%),
-        radial-gradient(ellipse at 75% 65%, rgb(222 204 171 / 18%) 0 20%, transparent 21%),
-        #fff;
+      background: #fff;
     }
 
     main > p {
       text-align: center;
-      color: #766853;
+      color: #b32632;
       font-size: 0.9rem;
     }
 
@@ -199,14 +196,14 @@
       padding: 0.5rem 0.75rem;
       border: 0;
       border-radius: 0.25rem;
-      background-color: #315447;
+      background-color: #b32632;
       color: #fff;
       cursor: pointer;
     }
 
     li h3 {
       margin: 0 0 0.15rem;
-      color: #473922;
+      color: #164b38;
       font-family: Georgia, serif;
       font-size: 1.1rem;
       font-style: italic;
@@ -220,7 +217,7 @@
 
     footer {
       padding: 0.5rem 1rem 1rem;
-      border-bottom: 0.85rem solid #c29d8b;
+      border-bottom: 0.85rem solid #b32632;
     }
 
     footer p {
@@ -242,70 +239,6 @@
         width: 4.25rem;
         height: 4.25rem;
       }
-    }
-    /* Esta paleta cambia el aspecto sin duplicar la logica de la carta. */
-    :root {
-      color-scheme: light;
-      --fondo-halloween: #24150e;
-      --superficie-halloween: #e0b985;
-      --naranja-halloween: #24150e;
-      --texto-halloween: #24150e;
-      --detalle-halloween: #24150e;
-      background-color: var(--fondo-halloween);
-      color: var(--texto-halloween);
-    }
-
-    /* Las tres secciones forman un bloque violeta semitransparente. */
-    header,
-    footer,
-    main {
-      background: rgb(110 65 150 / 50%);
-      color: var(--texto-halloween);
-    }
-
-    dialog {
-      background: var(--superficie-halloween);
-      color: var(--texto-halloween);
-    }
-
-    header,
-    footer {
-      border: 0;
-    }
-
-    /* La imagen se repite sin capas de color sobre las calabazas. */
-    body {
-      background: url("../imagenes/fondo.webp") center top / 600px 600px repeat;
-    }
-
-    main li,
-    main > p {
-      background: transparent;
-    }
-
-    header h1,
-    li h3,
-    main > p {
-      color: var(--naranja-halloween);
-    }
-
-    li p,
-    footer p {
-      color: var(--detalle-halloween);
-    }
-
-    dialog button {
-      background-color: #ff9a3c;
-      color: var(--fondo-halloween);
-    }
-
-    .show-image {
-      filter: drop-shadow(0 0.3rem 0.35rem rgb(0 0 0 / 45%));
-    }
-
-    button:focus-visible {
-      outline: 3px solid var(--naranja-halloween);
-      outline-offset: 4px;
     }
   </style>
 </head>
